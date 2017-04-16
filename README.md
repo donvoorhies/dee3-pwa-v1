@@ -3,13 +3,16 @@ The dee3 web-app source-code; an quick, simple way to make (via Mixcloud's embed
 Thanks goes to Dean Hume (https://github.com/deanhume/Service-Worker-Offline) for inspiration...
 
 Suggested reading:
+
 https://developers.google.com/web/fundamentals/getting-started/codelabs/your-first-pwapp/
 https://developers.google.com/web/fundamentals/getting-started/codelabs/offline/
 https://www.pluralsight.com/blog/software-development/introduction-to-service-worker
 http://deanhume.com/home/blogpost/create-a-really--really-simple-offline-page-using-service-workers/10135
 
 Web-app basics ("Nice-to-know"):
+
 http://www.mobilexweb.com/blog/home-screen-web-apps-android-chrome-31
 
 Suggested Manifest (JSON)-generator:
+
 https://tomitm.github.io/appmanifest/ 
