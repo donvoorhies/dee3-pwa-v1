@@ -10,7 +10,8 @@ https://donvoorhies.github.io/dee3_pwa/
 
 https://don.voorhies.dk/dee3/pwa/ 
 
-<img src="dee3_pwa_big.png" alt="QR-code" style="width:240, height:auto">
+[[https://github.com/donvoorhies/dee3_pwa/blob/master/dee3_pwa_big.png|alt=QR-code]]
+
 
 Suggested reading:
 
