@@ -10,7 +10,6 @@ https://donvoorhies.github.io/dee3_pwa/
 
 https://don.voorhies.dk/dee3/pwa/ 
 
-<img src="https//chart.googleapis.com/chart?cht=qr&chs=320x320&choe=UTF-8&chld=H&chl=https://goo.gl/v5gxqZ" alt="QR-code">
 
 Suggested reading:
 
