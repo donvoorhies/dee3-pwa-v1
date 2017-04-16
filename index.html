@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en-US">
+<head><meta charset="UTF-8">
+<link rel="manifest" href="https://don.voorhies.dk/dee3/pwa/manifest.json">
+<title>dee | mixes</title>
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="application-name" content="dee3">
+<meta name="apple-mobile-web-app-title" content="dee3">
+<meta name="theme-color" content="#25292C">
+<meta name="msapplication-navbutton-color" content="#25292C">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="msapplication-starturl" content="https://don.voorhies.dk/dee3/pwa/">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="google-site-verification" content="Uinu_9FE7H2-AkxpFyF9IyFcyMxbCpr2i-NYsjLNnVM" />
+<link rel="icon" sizes="144x144" href="https://don.voorhies.dk/dee3/pwa/icon144x144.png" type="imge/png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://don.voorhies.dk/dee3/pwa/icon144x144.png">
+<style>
+*{margin:0}
+html,body{height:100%}
+html{text-size-adjust:100%;font-smoothing:antialiased;osx-font-smoothing:grayscale}
+body{margin:0;font:16px Arial,sans-serif,serif;background:#25292C}
+main{min-height:100%;width:1024px:max-width:100%;margin:0 auto -45px;}
+h1,h2,h3,h4,h5,h6,p,blockquote,figure,ol,ul{margin:0;padding:0}
+main,li{display:block}
+h1,h2,h3,h4,h5,h6{font-size:inherit}
+a{text-decoration:none;color:#CCCCCC;transition:.3s}
+img,video{max-width:100%;height:auto;border:0}
+/** CSS Foundation by Jayden Seric */
+header{width:100%;max-width:100%:height:45px;line-height:45px}
+header h1{font-size:2em;color:#CCCCCC}
+iframe{width:100%;max-width:100%;height:480px;min-height:100%;border:0}
+footer{width:1024px;max-width:100%;line-height:45px;margin:0 auto;text-align: center}
+footer,.push{height:45px}
+</style>
+</head>
+<body>
+<main>
+<header><h1>dee3 | mixes</h1></header>
+<iframe src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fdee3%2Fplaylists%2Fdee3-mobile%2F&hide_cover=1"></iframe>
+<div class="push"></div>
+</main>
+<footer><a href="mailto:donvoorhies@gmail.com">dee3.mixes@gmail.com</a></footer>
+<script>
+//http://deanhume.com/Home/BlogPost/create-a-really--really-simple-offline-page-using-service-workers/10135
+//https://github.com/deanhume/Service-Worker-Offline
+// Register the service worker
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('worker.js').then(function(registration) {
+		    // Registration was successful
+		    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+		}).catch(function(err) {
+		    // registration failed :(
+		    	console.log('ServiceWorker registration failed: ', err);
+		    });
+		}
+</script>
+<script>
+(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b;a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)};a[b].l=1*new Date;c=e.createElement(f);d=e.getElementsByTagName(f)[0];c.async=1;c.src=g;d.parentNode.insertBefore(c,d)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create","UA-82333388-1","auto");ga("send","pageview");
+</script>
+</body>
+</html>
