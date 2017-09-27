@@ -3,13 +3,20 @@
   "short_name":"dee3",
   "lang":"en-US",
   "start_url":"https://donvoorhies.github.io/dee3_pwa/",
+  "background_color": "#25292C",
   "display":"standalone",
   "orientation":"any",
   "theme_color":"#25292C",
   "icons":[
   {
       "src":"icon144x144.png",
-      "sizes":"144x144"
+      "sizes":"144x144",
+	  "type": "image/png"  
+    },  
+    {  
+      "src": "icon512x512.png",  
+      "sizes": "512x512",  
+      "type": "image/png"  
     }
   ]
 }
