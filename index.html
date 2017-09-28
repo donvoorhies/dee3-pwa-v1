@@ -48,7 +48,15 @@ footer,.push{height:45px}
 // Register the service worker
 "serviceWorker"in navigator&&navigator.serviceWorker.register("worker.js").then(function(a){/** Registration was successful*/console.log("ServiceWorker registration successful with scope: ",a.scope)})["catch"](function(a){/** Registration failed :-(*/console.log("ServiceWorker registration failed: ",a)});
 </script>
-<script>
+ main.addEventListener('touchstart', function(evt) {
+
+    // I just wanted to test what happens if touchstart
+    // gets canceled. Hope it doesn't block scrolling on mobiles...
+    if (Math.random() > 0.97) {
+      evt.preventDefault();
+    }
+
+  });<script>
 (function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b;a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)};a[b].l=1*new Date;c=e.createElement(f);d=e.getElementsByTagName(f)[0];c.async=1;c.src=g;d.parentNode.insertBefore(c,d)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create","UA-97468116-1","auto");ga("send","pageview");
 </script>
 </body>
