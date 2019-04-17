@@ -2,7 +2,7 @@
   "name":"dee3 | mixes",
   "short_name":"dee3",
   "lang":"en-US",
-  "start_url":"https://donvoorhies.github.io/dee3_pwa_v1/",
+  "start_url":"https://donvoorhies.github.io/dee3-pwa-v1/",
   "background_color": "#25292C",
   "display":"standalone",
   "orientation":"any",
