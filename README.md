@@ -10,7 +10,7 @@ https://donvoorhies.github.io/dee3_pwa_v1/
 
 https://don.voorhies.dk/dee3/pwa/ 
 
-<img src="dee3_pwa_big.png" style="width:240px;height:auto;" alt="QR-code">
+<img src="chart.png" style="width:240px;height:auto;" alt="QR-code">
 
 Suggested reading:
 
