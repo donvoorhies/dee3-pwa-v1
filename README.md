@@ -1,14 +1,10 @@
-# dee3_pwa
+# dee3-pwa-v1 (first prototype/trial-run)
 The dee3 web-app source-code; an quick, simple way to make (via Mixcloud's embedded player and playlist) a web-app that one can link to and showcase one's mixes.
 Thanks goes to Dean Hume (https://github.com/deanhume/Service-Worker-Offline) for inspiration...
 
-Try it out here at:
+Try it out for real here at:
 
 https://donvoorhies.github.io/dee3-pwa-1/
-
-...or - for real - at:
-
-https://don.voorhies.dk/dee3/pwa/ 
 
 <img src="chart.png" style="width:240px;height:auto;" alt="QR-code">
 
