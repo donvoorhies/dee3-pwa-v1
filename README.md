@@ -4,7 +4,7 @@ Thanks goes to Dean Hume (https://github.com/deanhume/Service-Worker-Offline) fo
 
 Try it out here at:
 
-https://donvoorhies.github.io/dee3_pwa_v1/
+https://donvoorhies.github.io/dee3-pwa-1/
 
 ...or - for real - at:
 
