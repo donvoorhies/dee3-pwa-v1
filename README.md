@@ -2,7 +2,7 @@
 The dee3 web-app source-code; an quick, simple way to make (via Mixcloud's embedded player and playlist) a web-app that one can link to and showcase one's mixes.
 Thanks goes to Dean Hume (https://github.com/deanhume/Service-Worker-Offline) for inspiration...
 
-Try the prototype out for real here at:
+Try this prototype out for real at:
 
 https://donvoorhies.github.io/dee3-pwa-v1/
 
